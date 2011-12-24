@@ -1,0 +1,26 @@
+libmediainfo D bindings
+------------------
+
+Introduction:
+
+MediaInfo supplies technical and tag information about a video or audio file.
+
+What information can I get from MediaInfo?
+* General: title, author, director, album, track number, date, duration...
+* Video: codec, aspect, fps, bitrate...
+* Audio: codec, sample rate, channels, language, bitrate...
+* Text: language of subtitle
+* Chapters: number of chapters, list of chapters [...]
+http://mediainfo.sourceforge.net/
+
+License:
+libmediainfo and the D bindings are dual released as GPL/LGPL.
+
+Binding version: 0.7.52
+
+High-Level Wrapper:
+https://github.com/jpf91/MediaInfoD
+
+Windows-DLL:
+http://sourceforge.net/projects/mediainfo/files/binary/libmediainfo0/0.7.52/MediaInfo_DLL_0.7.52_Windows_i386_WithoutInstaller.7z/download
+http://sourceforge.net/projects/mediainfo/files/binary/libmediainfo0/0.7.52/MediaInfo_DLL_0.7.52_Windows_x64_WithoutInstaller.7z/download
